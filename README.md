@@ -1,4 +1,4 @@
-# Auto Bot (Marvel Contest Of Champions)
+# Auto Bot (Marvel Contest Of Champions) ROOTED Devices
 Feature:
 - Auto select to fight.
 - Auto fight.
