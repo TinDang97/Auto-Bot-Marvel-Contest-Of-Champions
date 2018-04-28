@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mode">
+        <item>None</item>
+        <item>Swap Small First</item>
+        <item>Swap Super First</item>
+        <item>Small</item>
+        <item>Super</item>
+        <item>SmallFirst</item>
+        <item>SuperFirst</item>
+    </string-array>
+</resources>

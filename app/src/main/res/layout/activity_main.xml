@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.trtin.autobot.MainActivity">
+    <TextView
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AutoBot Marvel Product by Trung Tín"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Service"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/show"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Service"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/btnStart"
+        android:layout_centerHorizontal="true" />
+
+    <!--<Spinner-->
+        <!--android:id="@+id/mode"-->
+        <!--android:layout_width="150dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--tools:listitem="@layout/support_simple_spinner_dropdown_item"-->
+        <!--android:layout_alignBaseline="@+id/textView5"-->
+        <!--android:layout_alignBottom="@+id/textView5"-->
+        <!--android:layout_centerHorizontal="true" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/numSmall"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="42dp"-->
+        <!--android:inputType="number"-->
+        <!--android:text="0"-->
+        <!--android:enabled="false"-->
+        <!--android:layout_below="@+id/mode"-->
+        <!--android:layout_alignStart="@+id/show" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/numSuper"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:inputType="number"-->
+        <!--android:text="0"-->
+        <!--android:enabled="false"-->
+        <!--android:layout_alignBottom="@+id/textView4"-->
+        <!--android:layout_toEndOf="@+id/mode" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView3"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="SmallE:"-->
+        <!--android:layout_alignBaseline="@+id/numSmall"-->
+        <!--android:layout_alignBottom="@+id/numSmall"-->
+        <!--android:layout_toStartOf="@+id/show"-->
+        <!--android:layout_marginEnd="12dp" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView4"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="SuperE:"-->
+        <!--android:layout_alignBaseline="@+id/numSmall"-->
+        <!--android:layout_alignBottom="@+id/numSmall"-->
+        <!--android:layout_alignEnd="@+id/btnStop" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView5"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="ModeE:"-->
+        <!--android:layout_below="@+id/btnStop"-->
+        <!--android:layout_toStartOf="@+id/numSmall"-->
+        <!--android:layout_marginTop="51dp" />-->
+
+
+</RelativeLayout>
